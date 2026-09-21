@@ -30,5 +30,5 @@ void main() {
     System.out.println();
     System.out.println("катет a = " + a);
     System.out.println("катет b = " + b);
-    System.out.printf("гипотенуза c = ", c);
+    System.out.printf("гипотенуза c = %.4f%n", c);
 }
