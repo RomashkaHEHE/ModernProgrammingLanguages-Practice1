@@ -1,6 +1,6 @@
 public class Type5 {
     public static void main(String[] args) {
-        String h = "o";
+        char h = 'o';
         int number = 6940;
         String g = "снежинка";
         String chocolate = "шоколад";
