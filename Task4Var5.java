@@ -1,3 +1,4 @@
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 void main() {
@@ -27,8 +28,10 @@ void main() {
 
     double c = Math.sqrt(a * a + b * b);
 
+    DecimalFormat format = new DecimalFormat("0.####");
+
     System.out.println();
-    System.out.println("катет a = " + a);
-    System.out.println("катет b = " + b);
-    System.out.printf("гипотенуза c = %.4f%n", c);
+    System.out.println("катет a = " + format.format(a));
+    System.out.println("катет b = " + format.format(b));
+    System.out.println("гипотенуза c = " + format.format(c));
 }
