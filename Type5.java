@@ -1,4 +1,4 @@
-public class var_5 {
+public class Type5 {
     public static void main(String[] args) {
         String h = "o";
         int number = 6940;
