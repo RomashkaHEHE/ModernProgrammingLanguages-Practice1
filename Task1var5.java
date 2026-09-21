@@ -1,4 +1,4 @@
-public class Task1var5 {
+public class Task1Var5 {
     public static void main(String[] args) {
         char h = 'o';
         int number = 6940;
